@@ -1,4 +1,4 @@
-## ekosystem
+## setting up Git
 - in IDE setup up git plugin
 - first cloning throws an error ->
 - into git bash terminal 
