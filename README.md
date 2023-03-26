@@ -1,5 +1,6 @@
 ## setting up Git
 - in IDE setup up git plugin
+- try cloning this repo
 - first cloning throws an error ->
 - into git bash terminal 
 - git config --global user.name "your name"
