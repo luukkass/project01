@@ -1,5 +1,7 @@
-#imports a randomstate
+#imports and randomstate
 import pandas as pd
 
-data = pd.read_csv("speeddating.csv")
-print(data.head())
+df = pd.read_csv("speeddating.csv")
+
+mean = df.mean(axis=0)
+df2 = df.fillna(mean)
