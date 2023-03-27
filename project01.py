@@ -1,7 +1,13 @@
 #imports and randomstate
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+from scipy.stats import norm
+from sklearn.preprocessing import StandardScaler
+from scipy import stats
+import warnings
+warnings.filterwarnings('ignore')
 
 df = pd.read_csv("speeddating.csv")
 
-mean = df.mean(axis=0)
-df2 = df.fillna(mean)
